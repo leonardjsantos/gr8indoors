@@ -1,0 +1,100 @@
+@font-face { font-family: Minimal; src: url('fonts/minimal.oft'); }
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  width: 100%;
+  background: url("assets/graphics/background.jpg") no-repeat;
+  background-attachment: fixed;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Minimal;
+}
+
+header{
+  width: auto;
+  color: white;
+  padding: 2%;
+  overflow: hidden;
+}
+
+.logo{
+  float:left;
+  width:5%;
+  padding-right: 2%;
+}
+
+.logo img{
+  width: 100%;
+}
+
+header h1{
+ font-size: 5vw;
+}
+
+.video{
+  text-align: center;
+  overflow: hidden;
+  /* border: 5px solid white; */
+  padding-bottom:40%;
+  position:relative;
+  height:0;
+}
+
+.video iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:70%;
+  position:absolute;
+  padding-right: 15%;
+  padding-left: 15%;
+}
+
+.announcement{
+  overflow: hidden;
+  text-align: center;
+  color: white;
+  padding-top: 5%;
+  padding-bottom: 5%;
+
+}
+
+.announcement p{
+  font-size: 5vw;
+  background-color: rgba(0,0,0,0.5);
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+footer{
+  width: auto;
+  text-align: right;
+  padding: 2%
+}
+
+footer img{
+  width: 5vw;
+  padding-left: 2vw;
+  opacity: 0.8;
+  transition: transform 0.3s, opacity 0.3s;
+}
+
+footer img:hover{
+  transform: scale(1.2);
+  opacity: 1;
+}
+
+#emailIcon{
+  padding-top: 2%;
+  padding-bottom: 0.5%;
+}
