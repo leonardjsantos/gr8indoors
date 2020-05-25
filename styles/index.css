@@ -28,8 +28,8 @@ body{
   height:100%;
   width:55%;
   position:absolute;
-  padding-right: 25%;
-  padding-left: 25%;
+  padding-right: 22.5%;
+  padding-left: 22.5%;
 }
 
 .announcement{
@@ -37,14 +37,15 @@ body{
   text-align: center;
   color: white;
   padding-top: 2%;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
 }
 
 .announcement p{
   font-size: 5vw;
   background-color: rgba(0,0,0,0.5);
-  width: 50%;
-  margin-left: 25%;
-  margin-right: 25%;
+
 }
 
 .donatePara{
