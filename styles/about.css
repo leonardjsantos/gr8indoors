@@ -6,6 +6,23 @@ body{
   background-size: cover;
 }
 
+.aboutAnnouncementHeading{
+  color: white;
+  text-align: center;
+}
+
+.aboutAnnouncement{
+  color: white;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 5%;
+}
+
+.aboutAnnouncement p{
+  font-size: 3vw;
+  line-height: 150%;
+}
+
 .video{
   text-align: center;
   overflow: hidden;
