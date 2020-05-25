@@ -1,0 +1,50 @@
+body{
+  background: url("../assets/graphics/background.jpg") no-repeat;
+  background-attachment: fixed;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.videoAnnouncement{
+  color: white;
+  text-align: center;
+  font-size: 3vw;
+  margin-top: 2%;
+}
+
+.video{
+  text-align: center;
+  overflow: hidden;
+  margin-top: 2%;
+  padding-bottom:30%;
+  position:relative;
+  height:0;
+}
+
+.video iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:50%;
+  position:absolute;
+  padding-right: 25%;
+  padding-left: 25%;
+}
+
+.announcement{
+  overflow: hidden;
+  text-align: center;
+  color: white;
+  padding-top: 5%;
+  padding-bottom: 5%;
+
+}
+
+.announcement p{
+  font-size: 5vw;
+  background-color: rgba(0,0,0,0.5);
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+}
