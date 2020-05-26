@@ -81,25 +81,66 @@ header h1{
 
 .pageHeading{
   color: white;
-  font-size: 7vw;
+  font-size: 4vw;
   text-align: center;
-  padding-bottom: 2%;
+  padding-bottom: 5%;
+  width: 80%;
+  margin-right: 10%;
+  margin-left: 10%;
+  /* border: 1px solid white; */
+}
+
+.pageHeading h1{
+  /* float: left; */
+}
+
+.pageIcon{
+  width: 10%;
+  overflow: hidden;
+  float: right;
+}
+
+.pageIcon img{
+  width: 100%;
 }
 
 footer{
   width: auto;
-  text-align: right;
-  padding: 2%
+  /* border: 1px solid white; */
+  overflow: hidden;
+  padding-top: 5%;
+  /* padding: 2%; */
 }
 
-footer img{
+.footerLogo{
+  width: 10%;
+  float: left;
+  padding-left: 2%;
+}
+
+.footerLogo img{
+  width: 100%;
+  /* border: 1px solid red; */
+}
+
+
+
+.footerLinks{
+  float: right;
+  text-align: right;
+  width: 80%;
+  padding-right: 2%;
+  /* border: 1px solid white; */
+}
+
+.footerLinks img{
   width: 5vw;
   padding-left: 2vw;
   opacity: 0.8;
   transition: transform 0.3s, opacity 0.3s;
 }
 
-footer img:hover{
+.footerLinks img:hover{
   transform: scale(1.2);
   opacity: 1;
 }
