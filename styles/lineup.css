@@ -5,3 +5,25 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.performerGallery{
+  margin-top: 2%;
+  width: 80%;
+  padding-left: 10%;
+  padding-right: 10%;
+  overflow: hidden;
+}
+
+.performerBlock{
+  overflow: hidden;
+  /* border: 1px solid white; */
+  width: 31.33%;
+  float: left;
+  margin-left: 1%;
+  margin-right: 1%;
+  padding-bottom: 7%;
+}
+
+.performerBlock img{
+  width: 100%;
+}
