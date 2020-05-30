@@ -12,6 +12,21 @@ body{
   margin-left: 15%;
   margin-right: 20%;
 }
-.crewInfo p{
+.crewInfo h3{
   font-size: 5vw;
+}
+
+.crewInfo p{
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-size: 4vw;
+}
+
+.crewInfo ul{
+  text-align: left;
+  font-size: 3vw;
+}
+
+.crewInfo li{
+  line-height: 150%;
 }
