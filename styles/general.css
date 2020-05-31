@@ -1,4 +1,4 @@
-@font-face { font-family: Minimal; src: url('../fonts/minimal.oft'); }
+@font-face { font-family: "Minimal"; src: url('../fonts/minimal.oft'); }
 
 
 * {
@@ -11,7 +11,7 @@ body{
   padding: 0px;
   height: 100%;
   width: 100%;
-  font-family: Minimal;
+  font-family: "Minimal";
 }
 
 header{
